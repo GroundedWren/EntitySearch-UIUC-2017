@@ -1,0 +1,393 @@
+cfs entry for: _6.dii
+field count 1
+  field fp name size
+  field fp 140
+checksum 00000000003894753008
+cfs entry for: _6.dim
+block count 3
+  doc 1
+  doc 2
+  doc 0
+  block value [80 0 0 0 0 0 0 12]
+  block value [80 0 0 0 0 0 0 2a]
+  block value [80 0 0 0 0 0 0 66]
+num dims 1
+bytes per dim 8
+max leaf points 1024
+index count 1
+min value [80 0 0 0 0 0 0 12]
+max value [80 0 0 0 0 0 0 66]
+point count 3
+doc count 3
+  block fp 0
+split count 1
+  split dim 0
+  split value [0 0 0 0 0 0 0 0]
+END
+checksum 00000000000710821003
+cfs entry for: _6.fld
+doc 0
+  field 1
+    name name
+    type string
+    value SampleDoc.txt
+doc 1
+  field 1
+    name name
+    type string
+    value SampleDoc2.txt
+doc 2
+  field 1
+    name name
+    type string
+    value SampleDoc3.txt
+END
+checksum 00000000002085474230
+cfs entry for: _6.inf
+number of fields 3
+  name content
+  number 0
+  index options DOCS_AND_FREQS_AND_POSITIONS_AND_OFFSETS
+  term vectors true
+  payloads true
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  dimensional count 0
+  dimensional num bytes 0
+  name name
+  number 1
+  index options DOCS
+  term vectors false
+  payloads false
+  norms false
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  dimensional count 0
+  dimensional num bytes 0
+  name size
+  number 2
+  index options NONE
+  term vectors false
+  payloads false
+  norms true
+  doc values NONE
+  doc values gen -1
+  attributes 0
+  dimensional count 1
+  dimensional num bytes 8
+checksum 00000000002330831284
+cfs entry for: _6.len
+field content
+  type NUMERIC
+  minvalue 4
+  pattern 00
+11
+T
+00
+T
+02
+T
+END
+checksum 00000000001554418926
+cfs entry for: _6.pst
+field content
+  term and
+    doc 0
+      freq 1
+      pos 5
+      startOffset 26
+      endOffset 29
+  term at
+    doc 0
+      freq 2
+      pos 10
+      startOffset 40
+      endOffset 42
+      pos 13
+      startOffset 64
+      endOffset 66
+  term entity_location
+    doc 1
+      freq 1
+      pos 3
+      startOffset 7
+      endOffset 22
+        payload Illinois-http://dbpedia.org/resource/Illinois_wine-
+    doc 2
+      freq 2
+      pos 4
+      startOffset 28
+      endOffset 43
+        payload Chicago-http://dbpedia.org/resource/Chicago_%28band%29-
+      pos 5
+      startOffset 43
+      endOffset 58
+        payload Illinois-http://dbpedia.org/resource/Illinois-
+  term entity_organization
+    doc 0
+      freq 2
+      pos 12
+      startOffset 45
+      endOffset 64
+        payload University of Illinois-http://dbpedia.org/resource/University_of_Illinois_at_Urbana%E2%80%93Champaign-
+      pos 14
+      startOffset 66
+      endOffset 85
+        payload Urbana-Champaign-http://dbpedia.org/resource/University_of_Illinois_at_Urbana%E2%80%93Champaign-
+  term entity_person
+    doc 0
+      freq 1
+      pos 4
+      startOffset 13
+      endOffset 26
+        payload Alex Aulabaugh-
+    doc 2
+      freq 1
+      pos 1
+      startOffset 9
+      endOffset 22
+        payload Obama-http://dbpedia.org/resource/Barack_Obama-
+  term from
+    doc 2
+      freq 1
+      pos 3
+      startOffset 24
+      endOffset 28
+  term go
+    doc 0
+      freq 1
+      pos 7
+      startOffset 30
+      endOffset 32
+  term hello
+    doc 0
+      freq 1
+      pos 0
+      startOffset 0
+      endOffset 5
+  term i
+    doc 0
+      freq 1
+      pos 6
+      startOffset 29
+      endOffset 30
+    doc 1
+      freq 1
+      pos 0
+      startOffset 0
+      endOffset 1
+  term in
+    doc 1
+      freq 1
+      pos 2
+      startOffset 5
+      endOffset 7
+  term is
+    doc 0
+      freq 1
+      pos 3
+      startOffset 11
+      endOffset 13
+    doc 2
+      freq 1
+      pos 2
+      startOffset 22
+      endOffset 24
+  term live
+    doc 1
+      freq 1
+      pos 1
+      startOffset 1
+      endOffset 5
+  term my
+    doc 0
+      freq 1
+      pos 1
+      startOffset 5
+      endOffset 7
+  term name
+    doc 0
+      freq 1
+      pos 2
+      startOffset 7
+      endOffset 11
+  term president
+    doc 2
+      freq 1
+      pos 0
+      startOffset 0
+      endOffset 9
+  term school
+    doc 0
+      freq 1
+      pos 9
+      startOffset 34
+      endOffset 40
+  term the
+    doc 0
+      freq 1
+      pos 11
+      startOffset 42
+      endOffset 45
+  term to
+    doc 0
+      freq 1
+      pos 8
+      startOffset 32
+      endOffset 34
+field name
+  term SampleDoc.txt
+    doc 0
+  term SampleDoc2.txt
+    doc 1
+  term SampleDoc3.txt
+    doc 2
+END
+checksum 00000000000573175438
+cfs entry for: _6.vec
+doc 0
+  numfields 1
+  field 0
+    name content
+    positions true
+    offsets   false
+    payloads  true
+    numterms 13
+    term and
+      freq 1
+      position 5
+        payload 
+    term at
+      freq 2
+      position 10
+        payload 
+      position 13
+        payload 
+    term entity_organization
+      freq 2
+      position 12
+        payload University of Illinois-http://dbpedia.org/resource/University_of_Illinois_at_Urbana%E2%80%93Champaign-
+      position 14
+        payload Urbana-Champaign-http://dbpedia.org/resource/University_of_Illinois_at_Urbana%E2%80%93Champaign-
+    term entity_person
+      freq 1
+      position 4
+        payload Alex Aulabaugh-
+    term go
+      freq 1
+      position 7
+        payload 
+    term hello
+      freq 1
+      position 0
+        payload 
+    term i
+      freq 1
+      position 6
+        payload 
+    term is
+      freq 1
+      position 3
+        payload 
+    term my
+      freq 1
+      position 1
+        payload 
+    term name
+      freq 1
+      position 2
+        payload 
+    term school
+      freq 1
+      position 9
+        payload 
+    term the
+      freq 1
+      position 11
+        payload 
+    term to
+      freq 1
+      position 8
+        payload 
+doc 1
+  numfields 1
+  field 0
+    name content
+    positions true
+    offsets   false
+    payloads  true
+    numterms 4
+    term entity_location
+      freq 1
+      position 3
+        payload Illinois-http://dbpedia.org/resource/Illinois_wine-
+    term i
+      freq 1
+      position 0
+        payload 
+    term in
+      freq 1
+      position 2
+        payload 
+    term live
+      freq 1
+      position 1
+        payload 
+doc 2
+  numfields 1
+  field 0
+    name content
+    positions true
+    offsets   false
+    payloads  true
+    numterms 5
+    term entity_location
+      freq 2
+      position 4
+        payload Chicago-http://dbpedia.org/resource/Chicago_%28band%29-
+      position 5
+        payload Illinois-http://dbpedia.org/resource/Illinois-
+    term entity_person
+      freq 1
+      position 1
+        payload Obama-http://dbpedia.org/resource/Barack_Obama-
+    term from
+      freq 1
+      position 3
+        payload 
+    term is
+      freq 1
+      position 2
+        payload 
+    term president
+      freq 1
+      position 0
+        payload 
+END
+checksum 00000000004213944408
+table of contents, size: 7
+  filename: _6.dii
+    start: 22
+    end: 102
+  filename: _6.dim
+    start: 124
+    end: 519
+  filename: _6.fld
+    start: 541
+    end: 787
+  filename: _6.inf
+    start: 809
+    end: 1484
+  filename: _6.len
+    start: 1506
+    end: 1610
+  filename: _6.pst
+    start: 1632
+    end: 4355
+  filename: _6.vec
+    start: 4377
+    end: 6674
+table of contents begins at offset: 0000000000000006674
